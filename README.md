@@ -14,6 +14,9 @@ git config credential.helper store
 ssh -i .ssh/burgos root@psa.c3sl.ufpr.br
 ```
 ```bash
+source /root/proxy
+```
+```bash
 # Reset
 Color_Off='\033[0m'       # Text Reset
 
