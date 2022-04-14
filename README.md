@@ -1,21 +1,30 @@
 # Code tips
 ## Python
+replace character inside a string
 ```python
 string = string.replace("old_char", "new_char")
 ```
 
 ## Git
+remember the next git credentials for further logins
 ```git
 git config credential.helper store
 ```
 
 ## Bash
+ssh connection to ufpr server
 ```bash
 ssh -i .ssh/burgos root@psa.c3sl.ufpr.br
 ```
+enabling proxy http requests, suited to git pull from ufpr vm
 ```bash
 source /root/proxy
 ```
+show list of active process with file's name, to kill it
+```bash
+ps -x | grep ./file
+```
+shell color codes
 ```bash
 # Reset
 Color_Off='\033[0m'       # Text Reset
