@@ -4,6 +4,11 @@ replace character inside a string
 ```python
 string = string.replace("old_char", "new_char")
 ```
+'concatenate' dictionary
+```python
+d3 = dict(d1)
+d3.update(d2)
+```
 
 ## Git
 remember the next git credentials for further logins
