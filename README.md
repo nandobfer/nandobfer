@@ -9,6 +9,11 @@ string = string.replace("old_char", "new_char")
 d3 = dict(d1)
 d3.update(d2)
 ```
+evaluate list/dict from string
+```python
+import ast
+ast.literal_eval(string)
+```
 
 ## Git
 remember the next git credentials for further logins
