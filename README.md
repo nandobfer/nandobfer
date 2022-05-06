@@ -30,6 +30,10 @@ enabling proxy http requests, suited to git pull from ufpr vm
 ```bash
 source /root/proxy
 ```
+show list of process listening to port 5000, can kill it with pid
+```bash
+lsof -i:5000
+```
 show list of active process with file's name, to kill it
 ```bash
 ps -x | grep ./file
