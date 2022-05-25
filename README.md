@@ -114,6 +114,25 @@ On_ICyan='\033[0;106m'    # Cyan
 On_IWhite='\033[0;107m'   # White
 ```
 
+## PowerSHell
+alert message
+```powershell
+msg user
+mensagem
+ctrl+Z
+```
+
+tasklist
+```powershell
+tasklist
+```
+
+kill
+```powershell
+taskkill/im chrome.exe /F
+```
+
+
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=nandobfer&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
 
 <!--
