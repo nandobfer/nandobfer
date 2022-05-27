@@ -132,6 +132,33 @@ kill
 taskkill/im chrome.exe /F
 ```
 
+restart powershell as admin
+```powershell
+Start-Process powershell -Verb runAs
+```
+
+install ssh server (requires elevated powershell)
+```powershell
+Add-WindowsCapability -Online -Name OpenSSH.Server*
+```
+
+start ssh
+```powershell
+Start-Service sshd
+Start-Service ‘ssh-agent’
+```
+
+automatic startup ssh
+```powershell
+Set-Service -Name sshd -StartupType 'Automatic'
+Set-Service -Name ‘ssh-agent’ -StartupType 'Automatic'
+```
+
+open ssh port
+```powershell
+netsh advfirewall firewall add rule name=”SSHD service” dir=in action=allow protocol=TCP localport=22
+```
+
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=nandobfer&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
 
