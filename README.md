@@ -44,6 +44,11 @@ list directories with readable size
 du -sh *
 ```
 
+disk usage info (/ at end for actual disk only)
+```bash
+df -h
+```
+
 shell color codes
 ```bash
 # Reset
@@ -163,6 +168,11 @@ Set-Service -Name ‘ssh-agent’ -StartupType 'Automatic'
 open ssh port
 ```powershell
 netsh advfirewall firewall add rule name=”SSHD service” dir=in action=allow protocol=TCP localport=22
+```
+
+dir size
+```powershell
+Get-ChildItem CAMINHO -Recurse | Measure-Object -Property Length -Sum
 ```
 
 
