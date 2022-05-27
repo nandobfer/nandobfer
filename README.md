@@ -49,6 +49,11 @@ disk usage info (/ at end for actual disk only)
 df -h
 ```
 
+add source of exports (add this to /etc/profile.d/burgos_variables.sh)
+```bash
+source /home/fernando/environment_variables/*
+```
+
 shell color codes
 ```bash
 # Reset
