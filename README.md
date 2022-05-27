@@ -38,6 +38,12 @@ show list of active process with file's name, to kill it
 ```bash
 ps -x | grep ./file
 ```
+
+list directories with readable size
+```bash
+du -sh *
+```
+
 shell color codes
 ```bash
 # Reset
