@@ -51,7 +51,7 @@ df -h
 
 add source of exports (add this to /etc/profile.d/burgos_variables.sh)
 ```bash
-source /home/fernando/environment_variables/*
+source /home/fernando/burgos_variables/*
 ```
 
 shell color codes
