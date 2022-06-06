@@ -180,6 +180,24 @@ dir size
 Get-ChildItem CAMINHO -Recurse | Measure-Object -Property Length -Sum
 ```
 
+## MYSQL
+create user and give privileges (replace * . * with database.table for specifics)
+```mysql
+CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON * . * TO 'username'@'localhost';
+FLUSH PRIVILEGES;
+```
+
+create table
+```mysql
+CREATE DATABASE db_name;
+```
+
+import sql
+```mysql
+mysql -u username -p database_name < file.sql
+```
+
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=nandobfer&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
 
