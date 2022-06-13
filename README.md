@@ -59,6 +59,11 @@ find and replace text inside every file recursively from execution folder
 sudo find ./ -type f -readable -writable -exec sed -i "s/text_to_find/new_text/g" {} \;
 ```
 
+add free ssl certificate for a domain on nginx (requires apt install certbot and apt install python3-certbot-nginx)
+```bash
+sudo certbot --nginx -d example.com -d www.example.com
+```
+
 shell color codes
 ```bash
 # Reset
