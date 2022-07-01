@@ -64,6 +64,11 @@ add free ssl certificate for a domain on nginx (requires apt install certbot and
 sudo certbot --nginx -d example.com -d www.example.com
 ```
 
+reissue certificate with new domains
+```bash
+sudo certbot --nginx certonly -d alefritzen.com.br,www.alefritzen.com.br -d alefritzen.com.br,www.alefritzen.com.br
+```
+
 add user
 ```bash
 sudo adduser fernando
