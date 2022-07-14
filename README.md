@@ -200,6 +200,11 @@ open ssh port
 netsh advfirewall firewall add rule name=”SSHD service” dir=in action=allow protocol=TCP localport=22
 ```
 
+make powershell default shell for ssh
+```powershell
+New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -PropertyType String -Force
+```
+
 dir size
 ```powershell
 Get-ChildItem CAMINHO -Recurse | Measure-Object -Property Length -Sum
