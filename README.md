@@ -54,6 +54,11 @@ add source of exports (add this to /etc/profile.d/burgos_variables.sh)
 source /home/fernando/burgos_variables/*
 ```
 
+find files with given text inside
+```bash
+find path -type f -exec grep -l 'text-to-find-here' {} \;
+```
+
 find and replace text inside every file recursively from execution folder
 ```bash
 sudo find ./ -type f -readable -writable -exec sed -i "s/text_to_find/new_text/g" {} \;
