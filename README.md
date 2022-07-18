@@ -243,6 +243,16 @@ list databases
 SHOW DATABASES;
 ```
 
+select database to work into
+```mysql
+use database_name;
+```
+
+insert data into selected database table
+```mysql
+insert into table_name (column1, column2, column3) values ("value1", "value2", "value3");
+```
+
 ## Install LEMP
 https://www.cloudsigma.com/how-to-install-the-lemp-stack-linux-nginx-mysql-php-on-ubuntu-20-04/
 
