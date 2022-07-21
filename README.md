@@ -84,6 +84,13 @@ append user to sudo group (or any)
 sudo usermod sudo fernando
 ```
 
+create whm user (create regular user with adduser and passwd)
+```bash
+echo "username:all" >> /var/cpanel/resellers
+cp /var/cpanel/users/system /var/cpanel/users/username
+sed -i "s/DNS=//g" /var/cpanel/users/username
+```
+
 shell color codes
 ```bash
 # Reset
