@@ -260,6 +260,26 @@ insert data into selected database table
 insert into table_name (column1, column2, column3) values ("value1", "value2", "value3");
 ```
 
+list tables
+```mysql
+use database show tables;
+```
+
+create table
+```mysql
+use database create table table_name (id int not null, column_1 text, column_2 varchar(5) default 0, PRIMARY KEY (id));
+```
+
+list columns
+```mysql
+use database show columns from table_name;
+```
+
+add new column
+```mysql
+use database alter table table_name add column id int not null, column_3 text, column_5 varchar(5) default 0, column_4 date after column_3 ;
+```
+
 ## Install LEMP
 https://www.cloudsigma.com/how-to-install-the-lemp-stack-linux-nginx-mysql-php-on-ubuntu-20-04/
 
