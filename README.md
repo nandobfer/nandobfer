@@ -280,6 +280,11 @@ add new column
 use database alter table table_name add column id int not null, column_3 text, column_5 varchar(5) default 0, column_4 date after column_3 ;
 ```
 
+delete rows
+```mysql
+use database delete from table_name where condition = value;
+```
+
 ## Install LEMP
 https://www.cloudsigma.com/how-to-install-the-lemp-stack-linux-nginx-mysql-php-on-ubuntu-20-04/
 
