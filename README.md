@@ -21,6 +21,11 @@ remember the next git credentials for further logins
 git config credential.helper store
 ```
 
+remove python cached
+``` git
+git rm -r --cached __pycache__
+```
+
 ## Bash
 ssh connection to ufpr server
 ```bash
