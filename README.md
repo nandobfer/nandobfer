@@ -285,6 +285,11 @@ add new column
 use database alter table table_name add column id int not null, column_3 text, column_5 varchar(5) default 0, column_4 date after column_3 ;
 ```
 
+alter rows
+```mysql
+UPDATE table_name SET VALUE = value WHERE column_name = column;
+```
+
 delete rows
 ```mysql
 use database delete from table_name where condition = value;
