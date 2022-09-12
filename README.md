@@ -329,7 +329,7 @@ const createWindow = () => {
     }
   })
 
-  window.loadFile('timer.html')
+  window.loadFile('index.html')
 }
 
 app.on('ready', createWindow);
