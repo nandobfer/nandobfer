@@ -298,6 +298,41 @@ use database delete from table_name where condition = value;
 ## Install LEMP
 https://www.cloudsigma.com/how-to-install-the-lemp-stack-linux-nginx-mysql-php-on-ubuntu-20-04/
 
+
+## Electron
+install node.sj
+`https://nodejs.org/en/download/`
+
+initialize a repository in project directory
+```
+yarn init
+yarn add --dev electron
+```
+ execute electron on start: add start script to package.json
+ ```json
+ "scripts": {
+    "start": "electron ."
+  }
+  ```
+  
+  main.js
+  ```javascript
+  const { app, BrowserWindow } = require('electron')
+
+const createWindow = () => {
+    const window = new BrowserWindow({
+      width: 800,
+      height: 600
+    })
+  
+    window.loadFile('index.html')
+  }
+
+app.whenReady().then(() => {
+    createWindow()
+  })
+  ```
+
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=nandobfer&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
 
 <!--
