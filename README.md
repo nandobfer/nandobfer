@@ -341,6 +341,20 @@ app.on('ready', createWindow);
   npx electron-forge import
   yarn run make
   ```
+  
+  ## React
+  install node.sj
+  `https://nodejs.org/en/download/`
+  
+  initialize repository
+  ```
+  npx create-react-app organograma
+  ```
+  
+  start react
+  ```
+  yarn start
+  ```
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=nandobfer&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
 
