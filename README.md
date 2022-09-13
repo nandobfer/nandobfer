@@ -301,6 +301,7 @@ https://www.cloudsigma.com/how-to-install-the-lemp-stack-linux-nginx-mysql-php-o
 
 ## Electron
 install node.sj
+
 https://nodejs.org/en/download/
 
 initialize a repository in project directory
@@ -343,7 +344,8 @@ app.on('ready', createWindow);
   ```
   
   ## React
-  install node.sj
+  install node.js
+  
   https://nodejs.org/en/download/
   
   initialize repository
