@@ -350,7 +350,7 @@ app.on('ready', createWindow);
   
   initialize repository
   ```
-  npx create-react-app organograma
+  npx create-react-app repository_name
   ```
   
   start react
