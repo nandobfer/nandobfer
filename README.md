@@ -353,6 +353,11 @@ app.on('ready', createWindow);
   npx create-react-app repository_name
   ```
   
+  install my default libraries
+  ```
+  yarn add formik axios node-sass react-imask react-router-dom react-loading
+  ```
+  
   start react
   ```
   yarn start
