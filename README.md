@@ -355,7 +355,7 @@ app.on('ready', createWindow);
   
   install my default libraries
   ```
-  yarn add formik axios node-sass react-router-dom react-loading react-text-mask
+  yarn add formik axios node-sass react-router-dom react-loading react-text-mask react-burgos
   ```
   
   start react
