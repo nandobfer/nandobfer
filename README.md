@@ -363,6 +363,9 @@ app.on('ready', createWindow);
   yarn start
   ```
   
+  table lib
+  https://react-data-table-component.netlify.app/?path=/docs/getting-started-installation--page
+  
   ## Node.js
   install node.js
   
