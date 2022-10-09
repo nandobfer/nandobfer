@@ -358,6 +358,9 @@ app.on('ready', createWindow);
   yarn add formik axios node-sass react-router-dom react-loading react-text-mask react-burgos
   ```
   
+  table lib
+  https://react-data-table-component.netlify.app/?path=/docs/getting-started-installation--page
+  
   start react
   ```
   yarn start
@@ -375,8 +378,12 @@ app.on('ready', createWindow);
   npx expo install react-native-screens react-native-safe-area-context
   ```
   
-  table lib
-  https://react-data-table-component.netlify.app/?path=/docs/getting-started-installation--page
+  local storage
+  ```
+  expo install @react-native-async-storage/async-storage
+  ```
+  
+  
   
   ## Node.js
   install node.js
