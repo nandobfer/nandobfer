@@ -173,6 +173,9 @@ On_IWhite='\033[0;107m'   # White
 ```
 
 ## PowerSHell
+windows terminal config
+https://dev.to/dannyviiprus/improve-window-powershell-promt-with-oh-my-posh-and-more-20md
+
 alert message
 ```powershell
 msg user
