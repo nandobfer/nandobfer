@@ -298,6 +298,16 @@ delete rows
 use database delete from table_name where condition = value;
 ```
 
+export all databases
+```bash
+mysqldump --all-databases > alldb.sql
+```
+
+import all databases
+```bash
+mysql < alldb.sql
+```
+
 ## Install LEMP
 https://www.cloudsigma.com/how-to-install-the-lemp-stack-linux-nginx-mysql-php-on-ubuntu-20-04/
 
